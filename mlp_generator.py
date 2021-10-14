@@ -1,9 +1,9 @@
 import os
 import warnings
 import pandas as pd
-from keras import optimizers
-from keras.models import Sequential
-from keras.layers import Flatten, Dense, Dropout
+from tensorflow.keras import optimizers
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Flatten, Dense, Dropout
 
 from CONSTANTS import *
 
